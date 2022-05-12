@@ -16,3 +16,4 @@ jobs:
           sot_repo: martincousido/copy-bara-test-private
           destination_repo: martincousido/copy-bara-test-public
           push_include: "module-public/** module-2-public/** .github/workflows/copybara.yml"
+          copybara_options: "--last-rev 0feed2c02e942dc77cb0015732e94f559e8480e1"
